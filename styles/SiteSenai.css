@@ -1,0 +1,137 @@
+*{
+    margin: 10;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    border: 10;
+    color: white;
+    background-color: black;
+    
+   
+
+#superior{
+    background-color:black;
+    height: 20px;
+}
+#superior ul{
+    display: flex;
+    justify-content:  space-around;
+    text-indent: 10px;
+    color: #f1f8f1;
+    padding-bottom: 5px;
+   margin-right: 10px;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+
+
+#ajuste{
+    display: flex;
+    justify-content: center;
+    text-indent: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+
+#imagem img {
+    border-radius: 50%;
+}
+#imagem {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+#ajuste2 {
+    display: flex;
+    justify-content: center;
+    text-indent: 20px;
+    align-items: center;
+}
+
+#tabela{
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imagem3{
+    display: flex;
+    justify-content: center;
+}
+.borda-tabela{
+    height: 150px;
+    border-left: solid black 50px;
+    border-left-width: 5px;
+
+}
+
+#ajuste2{
+    display: flex;
+    justify-content: center;
+    text-indent: 30px;
+    margin: 20px;
+    align-items: center;
+    text-align: justify;
+}
+#tabela2{
+    height: 150px;
+    border-left: solid rgb(243, 243, 250) 50px;
+    border-left-width: 5px;
+
+}
+
+.mc{
+   display: flex;
+    justify-content: center;
+
+}
+#MP{
+    display: flex;
+    justify-content: center;
+}
+
+/* .borda-tabela {
+    margin: 15px;
+    height: 30px;
+    width: 300px;
+    border-left-color: red;
+    padding: 50px;
+} */
+
+/* .borda-tabela{ */
+    /* border-style: solid;
+    border-left-width: 10px; */
+    /* border-left-color: red; */
+/* } */
+
+
+
+
+
+
+
+#redes-sociais ul{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color:black;
+    align-items: center;
+}
+
+#redes-sociais ul li a{
+    color: white;}
+
+#endereço {
+    background-color:black;
+    color: white;
+
+}
+footer{height: 150px;}
